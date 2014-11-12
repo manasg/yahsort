@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/manasg/yahsort.svg)](https://travis-ci.org/manasg/yahsort)
+
+[![Gem Version](https://badge.fury.io/rb/yahsort.svg)](http://badge.fury.io/rb/yahsort)
+
 # Yahsort (Yet Another Human Sorter)
 
 Easier to read sorted list of hostnames for those who still care* :)
