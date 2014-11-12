@@ -1,13 +1,15 @@
 require "yahsort/version"
+require "yahsort/helper"
 
 module Yahsort
   # dig should indicate the 'digits'
   # sec is secondary idx, number based match is done on same secondaries
   # db1 api2 ==> api2, db1
+  # prod0api1 ---> secondary = prod0api, dig = 1
+  PATTERN = '^(?<sec>\w*\D)(?<dig>\d+)'
+  REGEX = Regexp.new(PATTERN)
   
-  PATTERN = %r{(?<sec>\D)(?<dig>\d+)$}
-  
-  def self.sorter(regex=PATTERN, secondary_precedence=true)
+  def self.sorter(regex=REGEX, secondary_precedence=true)
     
     sorter = lambda do |x,y|
       reg = regex

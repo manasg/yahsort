@@ -2,6 +2,8 @@
 
 Easier to read sorted list of hostnames for those who still care* :)
 
+Ofcourse you don't need this if you use zero padded hostnames - web01, web02
+
 Usually
 
 ```
