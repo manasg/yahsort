@@ -35,7 +35,7 @@ Or install it yourself as:
 ```
 require 'yahsort'
 
-puts %w{ web1 web10 web11 web2 }.sort 
+puts %w{ web1 web10 web11 web2 }.sort &Yahsort.sorter
 ```
 
 ## Contributing
