@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/manasg/yahsort.svg)](https://travis-ci.org/manasg/yahsort)
+[![Build Status](https://travis-ci.org/manasg/yahsort.svg?branch=master)](https://travis-ci.org/manasg/yahsort)
 
 [![Gem Version](https://badge.fury.io/rb/yahsort.svg)](http://badge.fury.io/rb/yahsort)
 
